@@ -1,8 +1,11 @@
 some_list = [1,2,3]
 
 def func(some_list):
+    some_list.append(4,5)
+    print("YEET")
+    some_list.append(5,9,12)
     some_list.append(4,7,8,9)
-    
+
     def func2():
         print(some_list)
         
